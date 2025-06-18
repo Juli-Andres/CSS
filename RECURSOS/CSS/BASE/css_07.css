@@ -1,0 +1,46 @@
+.abuelo .titulo {
+  color: red;
+}
+.abuelo, .titulo {
+    color: blue
+}
+h1.titulo + h2.titulo {
+  color: green;
+}
+h1.titulo + h3.titulo {
+  color: ;
+}
+.abuelo>.titulo {
+  color: purple;
+}   
+h1.titulo~ h2.titulo {
+  color: orange;
+}
+
+
+/*
+Especificidades
+1. .abuelo .titulo = 0,1,1
+2. .abuelo, .titulo = 0,1,1 
+3. h1.titulo + h2.titulo = 0,1,1
+4. h1.titulo + h3.titulo = 0,1,1    
+5. .abuelo>.titulo = 0,1,1
+6. h1.titulo~ h2.titulo = 0,1,1
+Selectores
+.abuelo .titulo = clase abuelo, clase titulo
+.abuelo, .titulo = clase abuelo, clase titulo
+h1.titulo + h2.titulo = etiqueta h1, clase titulo, hermano adyacente h2
+h1.titulo + h3.titulo = etiqueta h1, clase titulo, hermano adyacente h3
+.abuelo>.titulo = clase abuelo, clase titulo, hijo directo
+h1.titulo~ h2.titulo = etiqueta h1, clase titulo, hermano general h2
+
+
+(Espacio) = descendiente
++ = hermano adyacente
+> = hijo directo
+, = selector múltiple
+~ = hermano general 
+. = clase
+# = id
+     
+*/

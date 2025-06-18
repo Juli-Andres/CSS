@@ -1,0 +1,24 @@
+h1{
+    color: chocolate; background-color: lime;
+}
+h2{
+    color: darkblue;background-color: lightslategray;
+}
+h3{
+    color: darkorange;background-color: lightcyan;
+}
+h4{
+    color: darkgreen;background-color: mediumseagreen;
+}
+h5{
+    color: darkred;background-color: peru;
+}
+#parrafo{
+    color: darkslateblue;background-color: lightgoldenrodyellow;
+}
+.morados{
+    color: darkviolet;background-color: lightpink;
+}
+#introduccion{
+    color: black;background-color: magenta;
+}

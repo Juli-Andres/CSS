@@ -1,0 +1,18 @@
+h1{
+    color: crimson;
+    font-size: 64px;
+}
+h2,p{
+    color: darkgreen; font-size: 32px;
+}
+.titulo{
+    color: darkblue;
+    font-size: 24px;
+}
+#titulo{
+    color: darkred;
+    font-size: 20px;
+}
+.negrita{
+    font-weight: bold;
+}

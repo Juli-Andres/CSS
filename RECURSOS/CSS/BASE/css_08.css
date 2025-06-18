@@ -1,0 +1,21 @@
+#titulo{
+    color: green;
+}
+#titulo{
+    color:red;
+}
+.titulo{
+    color: blue;
+}
+h1{
+    color: purple;
+}
+body .titulo {
+    color: orange;
+}
+
+
+/* Esto no se debe usar, no es una buena practica !important 
+.titulo {
+    color: pink !important;
+}*/
